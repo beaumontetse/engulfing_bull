@@ -19,9 +19,9 @@ Linux and access to a VM is recommended to be used for this project.
 
 ### Executing program
 
-* run grabprice.sh on a virtual machine and set name of price file to write to
-* move the new price file in the same directory as engulfingbull.sh
-* in engulfingbull.sh, at the top, set the file = the newly created price file, and set the stock ticker to the stock being analyzed)
+* Run grabprice.sh on a virtual machine and set name of price file to write to
+* Move the new price file in the same directory as engulfingbull.sh
+* In engulfingbull.sh, at the top, set the file = the newly created price file, and set the stock ticker to the stock being analyzed)
 
 ## Authors
 
