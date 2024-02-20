@@ -10,53 +10,24 @@ Simulate the a day-trading engulfing bull strategy on a file containing list of 
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+Linux and access to a VM is recommended to be used for this project.
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Install cleanfile.sh, grabprice.sh, ticker.sh, getline.sh and engulfingbull.sh
+* You will need to run grabprice.sh on a virtual machine (using tmux) to get a file containing a list of prices of a stock.
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+* run grabprice.sh on a virtual machine and set name of price file to write to
+* move the new price file in the same directory as engulfingbull.sh
+* in engulfingbull.sh, at the top, set the file = the newly created price file, and set the stock ticker to the stock being analyzed)
 
 ## Authors
 
-Contributors names and contact info
+Beau Tse
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+Inspiration: Systems Programming Class
